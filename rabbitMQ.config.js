@@ -1,5 +1,6 @@
 const amqp = require('amqplib/callback_api');
-const amqpURL = 'amqps://sibnwyox:iVA9DcR9rL09CZNzAz2gUgrJ-s773rle@shark.rmq.cloudamqp.com/sibnwyox'
+//const amqpURL = 'amqps://sibnwyox:iVA9DcR9rL09CZNzAz2gUgrJ-s773rle@shark.rmq.cloudamqp.com/sibnwyox'
+const amqpURL = 'amqp://localhost'
 
 exports.send = async (data, nameQueue) => {
     let returnData;
